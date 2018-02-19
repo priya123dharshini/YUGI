@@ -2,13 +2,13 @@
 #include<string.h>
 int main()
 {
-	int n,l,x,i;
+	int n,l,y,i;
 	char a[100];
 	gets(a);
 	scanf("%d",&n);
 	l=strlen(a);
-	x=l-n;
-	for(i=x;i<l;i++)
+	y=l-n;
+	for(i=y;i<l;i++)
 	{
 		printf("%c",a[i]);
 	}
